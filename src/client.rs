@@ -60,7 +60,7 @@ pub struct Message {
 /// # Examples
 ///
 /// ```no_run
-/// use mini_redis::client;
+/// use tidis::client;
 ///
 /// #[tokio::main]
 /// async fn main() {
@@ -96,7 +96,7 @@ impl Client {
     /// Demonstrates basic usage.
     ///
     /// ```no_run
-    /// use mini_redis::client;
+    /// use tidis::client;
     ///
     /// #[tokio::main]
     /// async fn main() {
@@ -142,7 +142,7 @@ impl Client {
     /// Demonstrates basic usage.
     ///
     /// ```no_run
-    /// use mini_redis::client;
+    /// use tidis::client;
     ///
     /// #[tokio::main]
     /// async fn main() {
@@ -181,7 +181,7 @@ impl Client {
     /// favorable.
     ///
     /// ```no_run
-    /// use mini_redis::client;
+    /// use tidis::client;
     /// use tokio::time;
     /// use std::time::Duration;
     ///
@@ -246,7 +246,7 @@ impl Client {
     /// Demonstrates basic usage.
     ///
     /// ```no_run
-    /// use mini_redis::client;
+    /// use tidis::client;
     ///
     /// #[tokio::main]
     /// async fn main() {

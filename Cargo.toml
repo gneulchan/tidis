@@ -1,23 +1,23 @@
 [package]
-authors = ["Carl Lerche <me@carllerche.com>"]
+authors = ["NeulChan Gong <neulchan.gong@gmail.com>"]
 edition = "2018"
-name = "mini-redis"
+name = "tidis"
 version = "0.4.1"
 license = "MIT"
 readme = "README.md"
-documentation = "https://docs.rs/mini-redis/0.4.0/mini-redis/"
-repository = "https://github.com/tokio-rs/mini-redis"
+documentation = "https://docs.rs/tidis/0.4.0/tidis/"
+repository = "https://github.com/tokio-rs/tidis"
 description = """
 An incomplete implementation of a Rust client and server. Used as a
 larger example of an idiomatic Tokio application.
 """
 
 [[bin]]
-name = "mini-redis-cli"
+name = "tidis-cli"
 path = "src/bin/cli.rs"
 
 [[bin]]
-name = "mini-redis-server"
+name = "tidis-server"
 path = "src/bin/server.rs"
 
 [dependencies]
